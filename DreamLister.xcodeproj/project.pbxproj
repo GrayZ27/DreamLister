@@ -13,6 +13,14 @@
 		06CD7B791F460FA700A971AD /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B771F460FA700A971AD /* DreamLister.xcdatamodeld */; };
 		06CD7B7B1F460FA700A971AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CD7B7A1F460FA700A971AD /* Assets.xcassets */; };
 		06CD7B7E1F460FA700A971AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CD7B7C1F460FA700A971AD /* LaunchScreen.storyboard */; };
+		06CD7B8D1F46167000A971AD /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B851F46167000A971AD /* Item+CoreDataClass.swift */; };
+		06CD7B8E1F46167000A971AD /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B861F46167000A971AD /* Item+CoreDataProperties.swift */; };
+		06CD7B8F1F46167000A971AD /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B871F46167000A971AD /* Image+CoreDataClass.swift */; };
+		06CD7B901F46167000A971AD /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B881F46167000A971AD /* Image+CoreDataProperties.swift */; };
+		06CD7B911F46167000A971AD /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B891F46167000A971AD /* Store+CoreDataClass.swift */; };
+		06CD7B921F46167000A971AD /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B8A1F46167000A971AD /* Store+CoreDataProperties.swift */; };
+		06CD7B931F46167000A971AD /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B8B1F46167000A971AD /* ItemType+CoreDataClass.swift */; };
+		06CD7B941F46167000A971AD /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B8C1F46167000A971AD /* ItemType+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		06CD7B7A1F460FA700A971AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06CD7B7D1F460FA700A971AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06CD7B7F1F460FA700A971AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CD7B851F46167000A971AD /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		06CD7B861F46167000A971AD /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		06CD7B871F46167000A971AD /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		06CD7B881F46167000A971AD /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		06CD7B891F46167000A971AD /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		06CD7B8A1F46167000A971AD /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		06CD7B8B1F46167000A971AD /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		06CD7B8C1F46167000A971AD /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		06CD7B6F1F460FA700A971AD /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				06CD7B951F46185E00A971AD /* Model */,
 				06CD7B701F460FA700A971AD /* AppDelegate.swift */,
 				06CD7B721F460FA700A971AD /* ViewController.swift */,
 				06CD7B741F460FA700A971AD /* Main.storyboard */,
@@ -65,6 +82,29 @@
 				06CD7B771F460FA700A971AD /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		06CD7B951F46185E00A971AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06CD7B851F46167000A971AD /* Item+CoreDataClass.swift */,
+				06CD7B871F46167000A971AD /* Image+CoreDataClass.swift */,
+				06CD7B891F46167000A971AD /* Store+CoreDataClass.swift */,
+				06CD7B8B1F46167000A971AD /* ItemType+CoreDataClass.swift */,
+				06CD7B961F46188100A971AD /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		06CD7B961F46188100A971AD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				06CD7B861F46167000A971AD /* Item+CoreDataProperties.swift */,
+				06CD7B881F46167000A971AD /* Image+CoreDataProperties.swift */,
+				06CD7B8A1F46167000A971AD /* Store+CoreDataProperties.swift */,
+				06CD7B8C1F46167000A971AD /* ItemType+CoreDataProperties.swift */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +182,15 @@
 			files = (
 				06CD7B731F460FA700A971AD /* ViewController.swift in Sources */,
 				06CD7B711F460FA700A971AD /* AppDelegate.swift in Sources */,
+				06CD7B931F46167000A971AD /* ItemType+CoreDataClass.swift in Sources */,
+				06CD7B8D1F46167000A971AD /* Item+CoreDataClass.swift in Sources */,
+				06CD7B8F1F46167000A971AD /* Image+CoreDataClass.swift in Sources */,
+				06CD7B921F46167000A971AD /* Store+CoreDataProperties.swift in Sources */,
 				06CD7B791F460FA700A971AD /* DreamLister.xcdatamodeld in Sources */,
+				06CD7B941F46167000A971AD /* ItemType+CoreDataProperties.swift in Sources */,
+				06CD7B911F46167000A971AD /* Store+CoreDataClass.swift in Sources */,
+				06CD7B8E1F46167000A971AD /* Item+CoreDataProperties.swift in Sources */,
+				06CD7B901F46167000A971AD /* Image+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
