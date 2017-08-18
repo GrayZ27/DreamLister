@@ -22,6 +22,7 @@
 		06CD7B931F46167000A971AD /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B8B1F46167000A971AD /* ItemType+CoreDataClass.swift */; };
 		06CD7B941F46167000A971AD /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B8C1F46167000A971AD /* ItemType+CoreDataProperties.swift */; };
 		06CD7B991F46231D00A971AD /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B981F46231D00A971AD /* MaterialView.swift */; };
+		06CD7B9B1F46296400A971AD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B9A1F46296400A971AD /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		06CD7B8B1F46167000A971AD /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
 		06CD7B8C1F46167000A971AD /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		06CD7B981F46231D00A971AD /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		06CD7B9A1F46296400A971AD /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				06CD7B981F46231D00A971AD /* MaterialView.swift */,
+				06CD7B9A1F46296400A971AD /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CD7B9B1F46296400A971AD /* ItemCell.swift in Sources */,
 				06CD7B731F460FA700A971AD /* MainVC.swift in Sources */,
 				06CD7B711F460FA700A971AD /* AppDelegate.swift in Sources */,
 				06CD7B931F46167000A971AD /* ItemType+CoreDataClass.swift in Sources */,
