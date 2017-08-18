@@ -23,6 +23,8 @@
 		06CD7B941F46167000A971AD /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B8C1F46167000A971AD /* ItemType+CoreDataProperties.swift */; };
 		06CD7B991F46231D00A971AD /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B981F46231D00A971AD /* MaterialView.swift */; };
 		06CD7B9B1F46296400A971AD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD7B9A1F46296400A971AD /* ItemCell.swift */; };
+		06FC02491F476C4B00D6A44F /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FC02481F476C4B00D6A44F /* ItemDetailsVC.swift */; };
+		06FC024B1F47712200D6A44F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FC024A1F47712200D6A44F /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		06CD7B8C1F46167000A971AD /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		06CD7B981F46231D00A971AD /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		06CD7B9A1F46296400A971AD /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		06FC02481F476C4B00D6A44F /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		06FC024A1F47712200D6A44F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +80,10 @@
 		06CD7B6F1F460FA700A971AD /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
-				06CD7B971F4622ED00A971AD /* View */,
 				06CD7B951F46185E00A971AD /* Model */,
+				06CD7B971F4622ED00A971AD /* View */,
+				06FC02471F476BE300D6A44F /* Controller */,
 				06CD7B701F460FA700A971AD /* AppDelegate.swift */,
-				06CD7B721F460FA700A971AD /* MainVC.swift */,
 				06CD7B741F460FA700A971AD /* Main.storyboard */,
 				06CD7B7A1F460FA700A971AD /* Assets.xcassets */,
 				06CD7B7C1F460FA700A971AD /* LaunchScreen.storyboard */,
@@ -117,8 +121,18 @@
 			children = (
 				06CD7B981F46231D00A971AD /* MaterialView.swift */,
 				06CD7B9A1F46296400A971AD /* ItemCell.swift */,
+				06FC024A1F47712200D6A44F /* CustomTextField.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		06FC02471F476BE300D6A44F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06CD7B721F460FA700A971AD /* MainVC.swift */,
+				06FC02481F476C4B00D6A44F /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +216,13 @@
 				06CD7B8D1F46167000A971AD /* Item+CoreDataClass.swift in Sources */,
 				06CD7B8F1F46167000A971AD /* Image+CoreDataClass.swift in Sources */,
 				06CD7B921F46167000A971AD /* Store+CoreDataProperties.swift in Sources */,
+				06FC02491F476C4B00D6A44F /* ItemDetailsVC.swift in Sources */,
 				06CD7B791F460FA700A971AD /* DreamLister.xcdatamodeld in Sources */,
 				06CD7B941F46167000A971AD /* ItemType+CoreDataProperties.swift in Sources */,
 				06CD7B911F46167000A971AD /* Store+CoreDataClass.swift in Sources */,
 				06CD7B8E1F46167000A971AD /* Item+CoreDataProperties.swift in Sources */,
 				06CD7B901F46167000A971AD /* Image+CoreDataProperties.swift in Sources */,
+				06FC024B1F47712200D6A44F /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +386,7 @@
 				06CD7B841F460FA700A971AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
