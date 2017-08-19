@@ -25,6 +25,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         //generateTestData()
         attemptFetch()
         
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
