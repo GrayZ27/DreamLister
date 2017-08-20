@@ -173,6 +173,9 @@
                                     <constraint firstAttribute="height" constant="100" id="Hgo-Cl-csk"/>
                                     <constraint firstAttribute="width" constant="100" id="YNV-cQ-vF7"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="addImage:" destination="XEU-u4-GBe" eventType="touchUpInside" id="yF3-dw-khi"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mBk-iR-fuv" customClass="CustomTextField" customModule="DreamLister" customModuleProvider="target">
                                 <rect key="frame" x="128" y="82" width="266" height="40"/>
@@ -263,12 +266,16 @@
                     <navigationItem key="navigationItem" title="Add/Edit" id="8CN-Oe-9UN">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="Jsq-rr-5Am">
                             <color key="tintColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="itemDelete:" destination="XEU-u4-GBe" id="NNi-TE-MyJ"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="detailsField" destination="oyF-9t-iN5" id="TOf-Bc-4dR"/>
                         <outlet property="priceField" destination="v7a-hN-nC3" id="Zrt-87-IGQ"/>
                         <outlet property="storePicker" destination="55Y-hJ-kx5" id="IPm-bJ-toy"/>
+                        <outlet property="thumbImage" destination="UqA-DY-TXw" id="ZUg-kd-lDW"/>
                         <outlet property="titleField" destination="mBk-iR-fuv" id="DHf-CN-5Zb"/>
                     </connections>
                 </viewController>
